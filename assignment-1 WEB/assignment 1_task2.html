@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+
+select{
+width:100%;
+}
+
+
+.button {
+  position: absolute;
+  top: 77%;
+  left:38.1%;
+  transform: translate(-50%, -50%);
+  border: none;
+  color: white;
+  padding: 12px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+
+.button1 {background-color: #4CAF50;} /* Green */
+
+
+
+.content {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 10px;
+}
+
+
+</style>
+</head>
+
+
+
+<body>
+
+<div class="content">
+<h2>Fill your Interests</h1>
+<p>lorem ipsum</p>
+
+
+<form action="/action_page.php">
+ <label for="Name">Name:</label><br>
+ <input type="Name" size="70" ><br><br>
+ <label for="email">email:</label><br>
+ <input type="email" id="email" name="email" size="70" ><br><br>
+ <label for="birthday" >DOB: </label><br>
+ <input type="date" id="birthday" name="birthday" style="width:500px" ><br><br>
+  <label for="cars">Select your interests:</label><br>
+  <select id="cars" name="cars" >
+  <option value="select">-select</option>
+  <option value="interest1">Web</option>
+ <option value="interest2">SQA</option>
+
+
+  </select> <br><br>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> Indiviadual </label>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" >
+  <label for="vehicle2"> Organization</label><br>
+  <p><label for="w3review">About you:</label></p>
+  <textarea id="w3review" name="w3review" rows="8" cols="65"></textarea>
+  <br>
+<center><button class="button button1">Send Details</button></center>
+  
+</form>
+</div>
+</body>
+</html>
