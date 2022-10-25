@@ -1,0 +1,27 @@
+﻿body
+{
+}
+
+.main-wrapper{
+    margin:0px auto;
+    max-width:30%;
+    border:groove;
+    border-color:mediumpurple;
+    border-radius:4px;
+    height:100px;
+    background-color:rgb(182, 208, 211);
+}
+.main-wrapper input{
+    height:20px;
+    margin:20px;
+    border-radius:4px;
+
+
+}
+    .main-wrapper button {
+        text-align: center;
+        color: white;
+        padding: 5px;
+        border-radius: 4px;
+        margin-left: 10px;
+    }
